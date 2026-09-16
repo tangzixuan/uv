@@ -62,6 +62,7 @@ use uv_redacted::DisplaySafeUrl;
 use uv_redacted::DisplaySafeUrlError;
 
 pub use crate::requirement::{MakeEditableError, RequirementsTxtRequirement};
+pub use crate::shquote::quote;
 use crate::shquote::unquote;
 
 mod requirement;
